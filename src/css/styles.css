@@ -1,0 +1,72 @@
+@import "https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff";
+body {
+  background-color: #0d0d0d;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.logo.logo_image {
+  width: 215px;
+  height: 88px;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.logo.logo_image h1 {
+  position: absolute;
+  top: -7%;
+  margin: 0;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: -0.1em;
+  color: #4c4c4c;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.logo.logo_image h1 {
+  color: #fff;
+}
+
+.logo.logo_image h1 span {
+  position: absolute;
+  top: 58%;
+  left: 11%;
+  display: block;
+  font-size: 45px;
+  word-break: normal;
+  color: #e0006c;
+  letter-spacing: normal;
+  font-weight: 400;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.muellerhoff {
+  font-family: herr von muellerhoff, cursive;
+  font-weight: 400;
+}
+
+.affix .header-contacts {
+  text-align: right;
+}
+
+.header-contacts .fontsize_30 {
+  font-size: 20px;
+}
+
+.header-contacts .fontsize_20 {
+  font-size: 14px;
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
